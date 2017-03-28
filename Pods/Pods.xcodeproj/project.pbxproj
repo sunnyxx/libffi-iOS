@@ -12,28 +12,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04D71ABA4670D59A22B6C1FE3B1F52E9 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
 		0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		1732C489B65A57F8D4D349222D1957F9 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
-		3EA8D70F47B78735136A96A18A81CEE3 /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
+		1B9BC426BAAE22535A9F70E1A5222A44 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		22418EF3FFE1F2549B5141B63B8557AC /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
+		23E5EACA3EEDD5A79AAA45A04A1397FC /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		3241438CF2C891DB852192E3346409CD /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = libffi/libffi.a; sourceTree = "<group>"; };
 		42A2C4B37852C11CD68F3531A75F660C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Demo.a"; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52BC8E8D5D79421E36B38C4F0F09D263 /* ffitarget_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm.h; sourceTree = "<group>"; };
-		5F581BA781434DB51DBF8A593E469E4D /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
-		6579B2FFBE7FEE5AA76226512E71535D /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
+		59D9B232ADA6F44D6F9E072636665799 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
 		6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		727768CEB61A3CA725E2F9DB82A3D583 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
-		76794CFEDC4BF8009A3F9C74DF2CF12F /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		7368E80E3DF60D88AB11F3F541AAF98F /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
 		7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		8129C88E6E351B0489F1E0E6BE348726 /* ffi_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_common.h; sourceTree = "<group>"; };
+		8BEC6575609E12DD141C2EFD4E3C7F4B /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B165785DF02420A1D95EC704CA92BD89 /* libffi.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libffi.a; path = "libffi-iOS/libffi.a"; sourceTree = "<group>"; };
-		B879B998CD28A544C8A28B3DA356A678 /* ffi_arm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_arm.h; sourceTree = "<group>"; };
+		B39A00370FBD494F125F357AC044D3D6 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		B73D0BE296D6A8860F671D918733AC31 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
 		BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		C7D4FCB7261AB58D0CABB229C3FF897D /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD8F2BD223A2B65D543AC16402AFA274 /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
 		D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
 		DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		E9DBAC4189EA42B7BADF0FFC1B45761E /* ffitarget_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffitarget_i386.h; sourceTree = "<group>"; };
+		FC6616B1112119D3FBE004E6FBD4D17F /* ffi_i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ffi_i386.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097FD64232B27AEF6A1E7D042A7AA59F /* libffi-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A8B9ED3059C3D6618922A45D91E020 /* Frameworks */,
+				2B5F00208D15750DA9A97EB0C6AD097F /* libffi */,
+			);
+			name = "libffi-iOS";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		105A24935BC6A33BE66754CE51C36C31 /* Pods-Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,23 +81,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EAC96BBCC95DE61DA2C3E81F750153A /* libffi-iOS */ = {
+		2B5F00208D15750DA9A97EB0C6AD097F /* libffi */ = {
 			isa = PBXGroup;
 			children = (
-				76794CFEDC4BF8009A3F9C74DF2CF12F /* ffi.h */,
-				B879B998CD28A544C8A28B3DA356A678 /* ffi_arm.h */,
-				6579B2FFBE7FEE5AA76226512E71535D /* ffi_arm64.h */,
-				8129C88E6E351B0489F1E0E6BE348726 /* ffi_common.h */,
-				3EA8D70F47B78735136A96A18A81CEE3 /* ffi_i386.h */,
-				04D71ABA4670D59A22B6C1FE3B1F52E9 /* ffi_x86_64.h */,
-				5F581BA781434DB51DBF8A593E469E4D /* ffitarget.h */,
-				52BC8E8D5D79421E36B38C4F0F09D263 /* ffitarget_arm.h */,
-				727768CEB61A3CA725E2F9DB82A3D583 /* ffitarget_arm64.h */,
-				E9DBAC4189EA42B7BADF0FFC1B45761E /* ffitarget_i386.h */,
-				1732C489B65A57F8D4D349222D1957F9 /* ffitarget_x86_64.h */,
+				8BEC6575609E12DD141C2EFD4E3C7F4B /* ffi.h */,
+				23E5EACA3EEDD5A79AAA45A04A1397FC /* ffi_arm.h */,
+				1B9BC426BAAE22535A9F70E1A5222A44 /* ffi_arm64.h */,
+				59D9B232ADA6F44D6F9E072636665799 /* ffi_common.h */,
+				FC6616B1112119D3FBE004E6FBD4D17F /* ffi_i386.h */,
+				CD8F2BD223A2B65D543AC16402AFA274 /* ffi_x86_64.h */,
+				B39A00370FBD494F125F357AC044D3D6 /* ffitarget.h */,
+				22418EF3FFE1F2549B5141B63B8557AC /* ffitarget_arm.h */,
+				B73D0BE296D6A8860F671D918733AC31 /* ffitarget_arm64.h */,
+				7368E80E3DF60D88AB11F3F541AAF98F /* ffitarget_i386.h */,
+				C7D4FCB7261AB58D0CABB229C3FF897D /* ffitarget_x86_64.h */,
 			);
-			name = "libffi-iOS";
-			path = "libffi-iOS";
+			name = libffi;
+			path = libffi;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -112,9 +122,17 @@
 		9BA0A9151033409404099D60391F8290 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EA77C4002172F5E8FA82D933FE0F1FF9 /* libffi-iOS */,
+				097FD64232B27AEF6A1E7D042A7AA59F /* libffi-iOS */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A2A8B9ED3059C3D6618922A45D91E020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3241438CF2C891DB852192E3346409CD /* libffi.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -123,24 +141,6 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E792FFEEBE27E2FB3863142120688593 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B165785DF02420A1D95EC704CA92BD89 /* libffi.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EA77C4002172F5E8FA82D933FE0F1FF9 /* libffi-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E792FFEEBE27E2FB3863142120688593 /* Frameworks */,
-				2EAC96BBCC95DE61DA2C3E81F750153A /* libffi-iOS */,
-			);
-			name = "libffi-iOS";
-			path = ..;
 			sourceTree = "<group>";
 		};
 		F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */ = {

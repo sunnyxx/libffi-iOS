@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./libffi-iOS.podspec"
 
 SPEC CHECKSUMS:
-  libffi-iOS: 78913053dcc39373dcc0941962c177e4064eebad
+  libffi-iOS: ef078b4e497e971a867114acc56e89c5cd85c45a
 
 PODFILE CHECKSUM: 2a2ff96ac803bffa2f7ed6d40eadbde7627d27e5
 

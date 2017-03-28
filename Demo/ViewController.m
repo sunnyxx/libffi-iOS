@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <libffi-iOS/ffi.h>
+#import <ffi.h>
 #import <objc/runtime.h>
 
 @interface Sark : NSObject

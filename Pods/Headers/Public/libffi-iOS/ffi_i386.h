@@ -1,1 +1,1 @@
-../../../../libffi-iOS/ffi_i386.h
+../../../../libffi/ffi_i386.h

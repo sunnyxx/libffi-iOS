@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   libffi-iOS is built based on libffi-3.2.1, provides universal library
   (i386, x86_64, armv7, arm64), both ffi_call and ffi_closure are fully
-  varified.
+  tested.
   https://github.com/sunnyxx/libffi-iOS
   by sunnyxx
                        DESC
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '6.0'
 
-  s.vendored_libraries = 'libffi-iOS/libffi.a'
-  s.source_files = 'libffi-iOS/*.h'
+  s.vendored_libraries = 'libffi/libffi.a'
+  s.source_files = 'libffi/*.h'
 end
