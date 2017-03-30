@@ -51,7 +51,7 @@ void testFFIClosure() {
     ffi_prep_cif(&cif, FFI_DEFAULT_ABI, 4, &ffi_type_pointer, argumentTypes);
     IMP newIMP;
     ffi_closure *closure = ffi_closure_alloc(sizeof(ffi_closure), (void *)&newIMP);
-    ffi_prep_closure_loc(closure, &cif, closureCalled, NULL, NULL);
+    ffi_prep_closure_loc(closure, &cif, closureCalled, NULL, newIMP);
     
     Method method = class_getInstanceMethod([Sark class], @selector(fooWithBar:baz:));
     method_setImplementation(method, newIMP);
